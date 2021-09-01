@@ -1,8 +1,7 @@
 trigger:
 - '*'
 
-pool:
-  vmImage: vs23822_AgentPool
+pool: vs23822_AgentPool
 
 variables:
   buildConfiguration: 'Release'
